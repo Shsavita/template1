@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header{
+    height: 95vh;
+    
+    background-image: url(pexels-nappy-1076450.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+     padding-top: 1.2rem;
+     background-repeat: no-repeat;
+     image-rendering: -webkit-optimize-contrast;
+}
+.navbar-brand{
+    margin-left: 0%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    top: 3.5%;
+    position: absolute;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+}
+.horizontal-list li a {
+     color: white;
+     text-decoration: none;
+      
+}
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+.text-center{
+    text-align: center;
+}
+.nav-menu li a:hover{
+    color: #37E2D5;
+    border-bottom: 1px solid black;
+}
+#name-social-container{
+    margin-top: 20vh;
+    display: block;
+    text-align: center;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem; 
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+#my-para{
+    font-size: 1rem;
+    letter-spacing: 0.1rem; 
+    color: white;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+    display:inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-icons li a i fa-solid fa-magnifying-glass{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-right: 0%;
+     top: 3.5%;
+    position: absolute;
+     
+     
+} 
+.fa-solid fa-magnifying-glass{
+    text-align: right;
+    position:absolute;
+    right: 20%;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px  rgba(230, 196,196, 0.3);
+}
+ 
+  
+  .desktop {
+    background:#0fdec6;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+    padding-bottom: 0.5em;
+    position: relative;
+     top: 30vh;
+  }
+  
+  .desktop h3 {
+    font-size: 4vmin;
+  }
+  #test{
+    text-align: right;
+  }
+.footer_name li{
+    float: left;
+    display: block;
+}
+.footer_name li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+   
+ 
+ 
+ 
+
+ 
+
+
+ 
